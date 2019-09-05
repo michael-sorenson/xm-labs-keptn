@@ -18,10 +18,10 @@ This document details how to install and use this integration.
 * GKE/AKS/OpenShift application with keptn install
 
 # Files
-* [script-problem.js](./script-problem.js) - This is the script to paste into the `Problem Notifier` custom step
-* [script-evaluation.js[./script-evaluation.js)]
+* [script-problem.js](./script-problem.js) - This is the script to paste into the `Inbound Problem from keptn` trigger
+* [script-evaluation.js](./script-evaluation.js) - This is the script to paste into the `Inbound Evaluation Done from keptn` trigger
 # Introduction - How it works
-Keptn easily automates continuous delivery for cloud-native applications. An integration with xMatters makes this delivery even more seamless and allows for quick issue identification in order to  maximize keptn's power,
+Keptn easily automates continuous delivery for cloud-native applications. An integration with xMatters makes this delivery even more seamless and allows for quick issue identification in order to  maximize keptn's power.
 
 # Installation
 
@@ -98,7 +98,8 @@ In the script tab, paste in [this](./script-evaldone.js) script, then click **Sa
 7. TODO: add setup for event step and adding flow
 
 ## Keptn setup
-In order for keptn to send events to xMatters, you must install the [xMatters service](https://github.com/michael-sorenson/keptn-xmatters-service) into your cluster with keptn installed. Make sure you follow the steps on the GitHub repo to properly set up service. Note: you will need the Inbound URL for both the Problem trigger and the Evaluation Done trigger
+In order for keptn to send events to xMatters, you must install the xMatters service into your cluster with keptn installed. To do so, follow the steps here: https://github.com/michael-sorenson/keptn-xmatters-service
+Make sure you follow the steps on the GitHub repo to properly set up service. Note: you will need the Inbound URL for both the Problem trigger and the Evaluation Done trigger
 
 # Testing
 To test the step, run `keptn send event --file=problem_example.json`, if the step is working correctly, you should get a Problem event created in xMatters.

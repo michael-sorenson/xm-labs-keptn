@@ -1,0 +1,13 @@
+{
+    "specversion":"0.2",
+    "type":"sh.keptn.events.problem",
+    "shkeptncontext":"db51be80-4fee-41af-bb53-1b093d2b694c",
+    "source":"CLI",
+    "id":"49ac0dec-a83b-4bc1-9dc0-1f050c7e789b",
+    "time":"20190325-15:22:50.560",
+    "contenttype":"application/json",
+    "data": {
+        "ProblemID":"{ProblemID}",
+        "PID":"{PID}"
+    }
+} 
