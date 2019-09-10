@@ -1,7 +1,7 @@
 # Keptn Integration
 This is part of the xMatters Labs Steps awesome listing. For others, see [here](https://github.com/xmatters/xMatters-Labs-Flow-Steps).
 
-With this library, notification recipients can quickly build a Jenkins Pipeline.
+This integration with Keptn allows for notifications to problems and evaluation done events. 
 
 This document details how to install and use this integration. 
 
