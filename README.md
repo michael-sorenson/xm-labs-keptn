@@ -34,7 +34,7 @@ Keptn easily automates continuous delivery for cloud-native applications. An int
 To set up the keptn service, you will need two URLS. To find these, navigate to the Keptn Comm Plan, then click on Edit > Flows. To get the problem URL, click on the flow for the Problem flow, then double click the inbound trigger, the trigger URL will be at the bottom of the settings tab. To get the Evaluation Done URL, click on the flow for the Evaluation Done flow, then double click the inbound trigger, the trigger URL will be at the bottom of the settings tab. 
 
 ## Keptn setup
-In order for keptn to send events to xMatters, you must install the xMatters service into your cluster with keptn installed. To do so, you will need the Problem URL and the Evaluation Done URL, then follow the steps here: https://github.com/michael-sorenson/keptn-xmatters-service
+In order for keptn to send events to xMatters, you must install the xMatters service into your cluster with keptn installed. To do so, you will need the Problem URL and the Evaluation Done URL, then follow the steps here: https://github.com/keptn-contrib/keptn-xmatters-service
 Make sure you follow the steps on the GitHub repo to properly set up service. 
 
 # Testing
